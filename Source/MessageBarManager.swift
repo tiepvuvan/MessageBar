@@ -64,6 +64,8 @@ public class MessageBarManager: MessageBarDismissTargetType {
                 dismissActions: dismissActions)
     }
     
+    public init() {  }
+    
     private func present(message: MessageBarContentProvider,
                  inContainer container: MessageBarContainerType,
                  animated: Bool,
